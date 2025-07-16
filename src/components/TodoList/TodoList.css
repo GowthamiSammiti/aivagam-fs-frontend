@@ -1,0 +1,125 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .signout-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 50px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .signout-btn:hover {
+    background-color: darkred;
+  }
+  
+  /* Center the Todo list on the page */
+  .todo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+  }
+  
+  /* Todo Form Styling */
+  .todo-form {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+  }
+  
+  .todo-form input,
+  .todo-form select {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+  
+  .todo-form button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+  }
+  
+  .todo-form button:hover {
+      background-color: #0056b3;
+  }
+  
+  /* Todo List Styling */
+  .todo-list {
+      list-style: none;
+      padding: 0;
+      width: 100%;
+      max-width: 500px;
+  }
+  
+  .todo-item {
+      background: white;
+      padding: 12px;
+      border-radius: 5px;
+      margin: 8px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Todo Title */
+  .todo-title {
+      font-size: 16px;
+      font-weight: bold;
+  }
+  
+  /* Status Styling */
+  .todo-status {
+      font-size: 14px;
+      font-weight: bold;
+  }
+  
+  .todo-status.completed {
+      color: green;
+  }
+  
+  .todo-status.pending {
+      color: red;
+  }
+  
+  /* Buttons */
+  .edit-btn, .delete-btn {
+      padding: 8px;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+      border-radius: 5px;
+  }
+  
+  .edit-btn {
+      background-color: #f1c40f;
+      color: white;
+      margin-right: 5px;
+  }
+  
+  .edit-btn:hover {
+      background-color: #d4ac0d;
+  }
+  
+  .delete-btn {
+      background-color: #e74c3c;
+      color: white;
+  }
+  
+  .delete-btn:hover {
+      background-color: #c0392b;
+  }
